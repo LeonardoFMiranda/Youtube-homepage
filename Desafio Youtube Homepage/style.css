@@ -163,7 +163,7 @@ a{
     width: 270px;
     padding: 24px;
     flex-direction: column;
-    overflow-y: auto; 
+    overflow-y: hidden; 
 }
   
 .side-bar:hover {
