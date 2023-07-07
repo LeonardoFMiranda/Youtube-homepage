@@ -426,6 +426,7 @@ main a img {
 /* FIM MAIN */
 @media screen and (max-width:1800px){
     main {
+        
         margin: 32px 125px 0 325px;
         display: grid;
         grid-template-columns: repeat(3, 330px);
@@ -435,10 +436,17 @@ main a img {
 }
 @media screen and (max-width:1615px){
     main {
-        margin: 32px 125px 0 325px;
+        margin: 32px 0 0 325px;
+        display: grid;
+        grid-template-columns: repeat(3, 330px);
+        gap: 40px;
+    }
+}
+@media screen and (max-width:1400px){
+    main {
+        margin: 32px 0 0 325px;
         display: grid;
         grid-template-columns: repeat(2, 330px);
-        
         gap: 40px;
     }
 }
